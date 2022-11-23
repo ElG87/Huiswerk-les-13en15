@@ -21,22 +21,23 @@ h1{
     text-align: center;
     text-shadow: 2px 2px 5px rgb(8, 41, 35);
     margin: 0px;
-
 }
 
 h2{
     text-align: center;
 }
+
 a{
     background-color: rgb(24, 87, 87);
     display: block;
     text-decoration: none;
 }
+
 #menubalk{
     display: block;
     text-align: center;
-    
 }
+
 button{
     border: 1px solid darkslategray;
     border-radius: 4px;
@@ -61,17 +62,18 @@ p{
     padding: 10px;
 }
 
-form{
-    margin-left: 400px;
-    margin-right: 200px;
-    display: block;
+#formulier{
+    border: 2px solid red;
+    border-radius: 100px;
+    height: 100vh;
+    max-width: 400px;
 }
 
 input, textarea{
-    display: block;
-    margin: 10px;
+    
     box-sizing: border-box;
     width: 400px;
+    background-color: aquamarine;
 
 }
 footer{
