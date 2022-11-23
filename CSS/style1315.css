@@ -51,6 +51,8 @@ button :hover {
     background-color: rgb(62, 151, 163);
     border-radius: 1px;
     color: white;
+    box-shadow: 2px 2px 2px black;
+    font-weight: bold;
 }
 
 button :visited{
@@ -87,6 +89,7 @@ input[type=text]:active{
 input[type=text]:hover{
     border: 1px solid rgba(39, 39, 39, 0.349);
     background-color: rgb(192, 236, 234);
+    box-shadow: 2px 2px 2px grey;
 }
 
 
@@ -100,6 +103,7 @@ input[type=text]:hover{
 #bericht:hover{
     border: 1px solid rgba(39, 39, 39, 0.349);
     background-color: rgb(192, 236, 234);
+    box-shadow: 2px 2px 2px grey;
 }
 
 #verzendknop{
@@ -108,15 +112,21 @@ input[type=text]:hover{
     margin-top: 10px;
     width: 400px;
     padding: 5px;
-    background-color: rgb(96, 146, 144);
-    border: none;
+    background-color: rgb(116, 172, 170);
+    border: 1px solid gray;
     border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 #verzendknop:hover{
-    background-color: rgb(75, 117, 103);
+    background-color: rgb(143, 190, 187);
     border: 1px solid grey;
     padding: 5px;
+    box-shadow: 2px 2px 2px grey;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(36, 35, 35);
 }
 
 footer{
@@ -126,7 +136,6 @@ footer{
     height: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: auto;
 }
 
 #slotzin{
