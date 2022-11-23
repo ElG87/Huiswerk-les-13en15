@@ -3,15 +3,14 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(48, 48, 48);
     border:10px solid white;
-    margin: 0px;
-    contain:content;
+    margin: auto;
+    margin-bottom: 0px;
 }
 
 header{
     background-color: rgb(24, 87, 87);
     color: rgb(29, 138, 138);
     height: 50px;
-    border-radius: 5px;
     margin-top: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -62,29 +61,72 @@ p{
     padding: 10px;
 }
 
-#formulier{
-    border: 2px solid red;
-    border-radius: 100px;
-    height: 100vh;
+form{
+    margin: auto;
+    background-color: rgb(53, 128, 124);
     max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
-input, textarea{
-    
-    box-sizing: border-box;
+input[type=text]{
+    display: inline-block;
     width: 400px;
-    background-color: aquamarine;
-
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgba(39, 39, 39, 0.349);
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
-footer{
+
+input[type=text]:active{
+    border: 1px solid rgba(146, 24, 24, 0.349);
+}
+
+input[type=text]:hover{
+    border: 1px solid rgba(39, 39, 39, 0.349);
+    background-color: rgb(192, 236, 234);
+}
+
+
+#bericht{
+    width: 400px;
+    border: 1px solid rgba(39, 39, 39, 0.349);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#bericht:hover{
+    border: 1px solid rgba(39, 39, 39, 0.349);
+    background-color: rgb(192, 236, 234);
+}
+
+#verzendknop{
     display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 400px;
+    padding: 5px;
+    background-color: rgb(96, 146, 144);
+    border: none;
+    border-radius: 4px;
+}
+
+#verzendknop:hover{
+    background-color: rgb(75, 117, 103);
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+footer{
     text-align: center;
     background-color: rgb(24, 87, 87);
     color: rgb(5, 22, 22);
-    height: 10px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-radius: 5px;
+    height: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
 }
 
 #slotzin{
