@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(166, 219, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(48, 48, 48);
+    border:10px solid white;
+    margin: 10px;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 70px;
+}
+
+header{
+    background-color: rgb(24, 87, 87);
+    color: rgb(29, 138, 138);
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 100;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(8, 41, 35);
+    margin: 0px;
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    background-color: rgb(24, 87, 87);
+    display: block;
+    text-decoration: none;
+}
+
+#menubalk{
+    display: block;
+    text-align: center;
+}
+
+button{
+    border: 1px outset rgba(182, 230, 230, 0.699);
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 200px;
+    margin: 10PX;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+}
+
+button :hover {
+    background-color: rgb(62, 151, 163);
+    border-radius: 1px;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+    font-weight: 600;
+}
+
+button :visited{
+    color: rgb(255, 255, 255);
+}
+
+p{
+    padding: 10px;
+}
+
+form{
+    margin: auto;
+    background-color: rgb(53, 128, 124);
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+input[type=text]{
+    display: inline-block;
+    width: 400px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgba(39, 39, 39, 0.349);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type=text]:active{
+    border: 1px solid rgba(146, 24, 24, 0.349);
+}
+
+input[type=text]:hover{
+    border: 1px solid rgba(39, 39, 39, 0.349);
+    background-color: rgb(192, 236, 234);
+    box-shadow: 2px 2px 2px grey;
+}
+
+
+#bericht{
+    width: 400px;
+    border: 1px solid rgba(39, 39, 39, 0.349);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+
+#bericht:hover{
+    border: 1px solid rgba(39, 39, 39, 0.349);
+    background-color: rgb(192, 236, 234);
+    box-shadow: 2px 2px 2px grey;
+}
+
+#verzendknop{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 400px;
+    padding: 5px;
+    background-color: rgb(116, 172, 170);
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#verzendknop:hover{
+    background-color: rgb(143, 190, 187);
+    border: 2px groove rgb(214, 224, 223);
+    padding: 5px;
+    box-shadow: 2px 2px 2px grey;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(12, 44, 44);
+}
+#verzendknop:active{
+    border: 2px inset black;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(24, 87, 87);
+    color: rgb(229, 240, 240);
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+#slotzin{
+    display: block;
+    text-align: center;
+}
