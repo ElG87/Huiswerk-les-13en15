@@ -17,7 +17,6 @@ header{
     background-color: rgb(24, 87, 87);
     color: rgb(29, 138, 138);
     height: 60px;
-    border: 3px 3px 0px 3px solid rgb(15, 77, 65);
     }
 
 h1{
@@ -50,6 +49,7 @@ li {
     float: left;
     margin: auto;
     width: 33.33%;
+    font-weight: 400;
   }
 
 li a{
